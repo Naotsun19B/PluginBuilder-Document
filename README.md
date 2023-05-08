@@ -25,7 +25,7 @@ Target platform : Windows
 ## Installation
 
 Put the [Plugins/PluginBuilder](https://github.com/Naotsun19B/PluginBuilder) folder in your project's Plugins folder.  
-Marketplace publication is in preparation.  
+Or install from the [marketplace](https://www.unrealengine.com/marketplace/en-US/product/pluginbuilder).  
 If the feature is not available after installing the plugin, it is possible that the plugin has not been enabled, so please check if the plugin is enabled from Edit > Plugins.
 
 ## Features And Usages
