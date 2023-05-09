@@ -81,5 +81,8 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
 
 ## History
 
+- (2023/05/09) v1.1  
+  Fixed a bug that the successful editor notification was displayed even if there were errors  
+
 - (2023/05/07) v1.0   
   Publish plugin
