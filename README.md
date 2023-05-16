@@ -99,6 +99,7 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
   Added option to copy .uplugin file properties to exported plugins  
   Added an option to the editor preferences to show only this plugin's log in the output log when package processing is started (Only available in UE5.1 or later)  
   Added preset button to tool menu to select engine version  
+  Added support for UE5.2  
 
 - (2023/05/09) v1.1  
   Fixed a bug that the successful editor notification was displayed even if there were errors  
