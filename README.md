@@ -50,6 +50,7 @@ You can access the functionality of this plugin from Package Plugin in the edito
 |                      | Output All Zip Files To Single Folder | Whether to put the zip files into a single folder.<br/>If false will use a per engine folder for each zip file.                                                                                                                                                                                |
 |                      | Keep Binaries Folder                  | Whether the zip folder should keep the binaries folder.<br/>Marketplace submissions expect the binaries folder to be deleted.                                                                                                                                                                  |
 |                      | Keep .uplugin Properties              | Whether to keep the properties of uplugin that are deleted when outputting from UAT even after outputting.<br/>Examples of properties to delete by UAT: IsBetaVersion, IsExperimentalVersion, EnabledByDefault, etc.<br/>Marketplace submissions expect to use the uplugin file output by UAT. |
+|                      | Compression Level                     | The compression strength when compressing the built plugin into a zip file.                                                                                                                                                                                                                    |
 | Build Targets        |                                       | Select the plugin to build.                                                                                                                                                                                                                                                                    |
 | Build Settings       |                                       | Opens the settings for Plugin Builder.                                                                                                                                                                                                                                                         |
 
@@ -91,6 +92,11 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## History
+
+- (2023/06/26) v1.3  
+  Added All to engine version preset button  
+  Changed to remember the value for each project only for build targets  
+  Changed to use UAT's Zip Utils for zip file compression  
 
 - (2023/05/09) v1.2  
   Added option to use plugin Friendly Name for editor tool menu, output directory name, etc.  

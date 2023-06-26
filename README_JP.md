@@ -50,6 +50,7 @@
 |                      | Output All Zip Files To Single Folder | zip ファイルを1つのフォルダに入れるかどうか。<br/>false の場合、zip ファイルごとにエンジンごとのフォルダが使用されます。                                                                                                     |
 |                      | Keep Binaries Folder                  | zip フォルダにバイナリフォルダを保存するかどうか。<br/>マーケットプレイスへ提出する場合はバイナリフォルダを含めないようにしてください。                                                                                                   |
 |                      | Keep .uplugin Properties              | UATから出力する際に削除された.upluginのプロパティを出力後も保持するかどうか。<br/>UATで削除するプロパティの例: IsBetaVersion, IsExperimentalVersion, EnabledByDefault, など。<br/>マーケットプレイスへの提出する場合はUATから出力されたものを使用してください。 |
+|                      | Compression Level                     | ビルドしたプラグインをzipファイルに圧縮する際の圧縮率。                                                                                                                                              |
 | Build Targets        |                                       | ビルドするプラグインを選択します。                                                                                                                                                          |
 | Build Settings       |                                       | PluginBuilderの設定を開きます。                                                                                                                                                     |
 
@@ -92,6 +93,11 @@
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## 履歴
+
+- (2023/06/26) v1.3  
+  エンジンバージョンのプリセットボタンにAllを追加しました  
+  ビルド対象のみプロジェクトごとの値を記憶するように変更しました  
+  zipファイルへの圧縮処理をUATのZipUtilsを使用して行うように変更しました  
 
 - (2023/05/09) v1.2  
   エディタのツールメニューや出力ディレクトリ名などにプラグインの Friendly Name を使うオプションを追加しました  
