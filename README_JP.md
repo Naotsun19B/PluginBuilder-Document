@@ -20,7 +20,7 @@
 
 ## 動作環境
 
-対象バージョン : UE4.27 ～ 5.3    
+対象バージョン : UE4.27 ～ 5.4    
 対象プラットフォーム : Windows  
 
 ## インストール
@@ -96,6 +96,11 @@
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## 履歴
+
+- (2024/04/24) v1.5  
+  UE5.4に対応しました  
+  UE5.3では「Strict Includes」を使用するとエンジンコードでビルドエラーが発生するため、UE5.3でだけ自動で使用しないようにする対応をしました  
+  設定項目に「No Host Platform」、「Host Platforms」、「Unversioned」の3つを追加しました  
 
 - (2023/09/07) v1.4  
   UE5.3に対応しました

@@ -20,7 +20,7 @@ Adds a tools menu to build plugin with multiple engine versions and compress the
 
 ## Requirement
 
-Target version : UE4.27 ～ 5.3    
+Target version : UE4.27 ～ 5.4    
 Target platform : Windows  
 
 ## Installation
@@ -95,6 +95,11 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## History
+
+- (2024/04/24) v1.5
+  Added support for UE5.4  
+  In UE5.3, using "Strict Includes" will cause a build error in the engine code, so we have taken measures to prevent it from being used automatically only in UE5.3  
+  Added three settings items: "No Host Platform", "Host Platforms", and "Unversioned"
 
 - (2023/09/07) v1.4  
   Added support for UE5.3
