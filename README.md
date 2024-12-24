@@ -20,7 +20,7 @@ Adds a tools menu to build plugin with multiple engine versions and compress the
 
 ## Requirement
 
-Target version : UE4.27 ～ 5.4    
+Target version : UE4.27 ～ 5.5    
 Target platform : Windows  
 
 ## Installation
@@ -95,6 +95,10 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## History
+
+- (2024/12/24) v1.6  
+  Added support for UE5.5  
+  Fixed formatting error in TargetPlatform argument  
 
 - (2024/04/24) v1.5  
   Added support for UE5.4  
