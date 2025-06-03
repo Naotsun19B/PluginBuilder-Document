@@ -20,7 +20,7 @@ Adds a tools menu to build plugin with multiple engine versions and compress the
 
 ## Requirement
 
-Target version : UE4.27 ～ 5.5    
+Target version : UE4.27 ～ 5.6    
 Target platform : Windows  
 
 ## Installation
@@ -95,6 +95,12 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## History
+
+- (2025/06/04) v1.7  
+  Added support for UE5.6  
+  Fixed a bug where settings such as editor preferences and build configurations were not saved correctly  
+  Build configuration settings have been changed to be saved for each project  
+  Added Clear presets to deselect all engine versions
 
 - (2024/12/24) v1.6  
   Added support for UE5.5  
