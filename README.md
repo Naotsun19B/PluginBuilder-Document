@@ -8,6 +8,7 @@
 * [Installation](#Installation)
 * [Features And Usages](#features-and-usages)
 * [Settings](#Settings)
+* [If the installed engine is not displayed](#if-the-installed-engine-is-not-displayed)
 * [License](#License)
 * [Author](#Author)
 * [Development Cooperation](#development-cooperation)
@@ -81,6 +82,17 @@ The shortcut keys corresponding to the menus introduced in "Functions and Usage"
 | Misc         | Use Friendly Name                                           | Whether to use friendly names in plugin output files, editor menus, etc.                                                                                                     |
 |              | Show Only Logs From This Plugin When Package Process Starts | Whether to change the output log filter to show only log categories for this plugin when starting the package process.<br/>This feature is only available in UE5.1 or later. |
 |              | Stop Packaging Process Immediately                          | Whether to stop the packaging process as soon as the cancel button is pressed during packaging.<br/> !!CAUTION!! You may get an error from UBT as it kills the process.      |
+
+## If the installed engine is not displayed
+
+This occurs when engine information is not registered in the Windows registry for any reason when installing the engine.  
+Reinstalling the engine will fix this problem, but you can also fix it by using the steps below.
+
+1. Open Registry Editor (Search for "regedit" in the Windows taskbar search box)
+2. Open the folder with the path below
+   Computer\HKEY_LOCAL_MACHINE\SOFTWARE\EpicGames\Unreal Engine\
+3. Copy the folder of another installed version and change the folder name to the engine version you want to register.
+4. Change the InstalledDirectory property in the renamed folder to the path where the engine you want to register is installed.
 
 ## License
 
