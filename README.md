@@ -21,7 +21,7 @@ Adds a tools menu to build plugin with multiple engine versions and compress the
 
 ## Requirement
 
-Target version : UE4.27 ～ 5.6    
+Target version : UE4.27 ～ 5.7    
 Target platform : Windows  
 
 ## Installation
@@ -107,6 +107,12 @@ Reinstalling the engine will fix this problem, but you can also fix it by using 
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
 
 ## History
+
+- (2025/11/13) v1.8  
+  Added support for UE5.7  
+  Fixed a bug where build configurations were not loaded correctly  
+  Improved so that platforms that are not installed cannot be selected    
+  Fixed a crash that occurred on startup
 
 - (2025/06/04) v1.7  
   Added support for UE5.6  
