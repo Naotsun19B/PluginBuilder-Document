@@ -1,3 +1,8 @@
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/license-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
+
 # PluginBuilder
 
 ![Plugin](https://user-images.githubusercontent.com/51815450/236666641-574dcfbd-9588-4192-87f1-33e13d713e55.png)
@@ -96,7 +101,9 @@ Reinstalling the engine will fix this problem, but you can also fix it by using 
 
 ## License
 
-[MIT License](https://en.wikipedia.org/wiki/MIT_License)
+Source code is available on GitHub under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).  
+The package distributed on Fab is provided under the [Fab Standard License (Fab EULA)](https://www.fab.com/eula).  
+Unless explicitly stated otherwise, all documentation content in this repository is © 2022-2026 Naotsun. All rights reserved.
 
 ## Author
 

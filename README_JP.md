@@ -1,3 +1,8 @@
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/license-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
+
 # PluginBuilder
 
 ![Plugin](https://user-images.githubusercontent.com/51815450/236666641-574dcfbd-9588-4192-87f1-33e13d713e55.png)
@@ -96,7 +101,9 @@
 
 ## ライセンス
 
-[MITライセンス](https://ja.wikipedia.org/wiki/MIT_License)
+ソースコードはGitHubで[MITライセンス](https://ja.wikipedia.org/wiki/MIT_License)として公開しています。  
+Fabで配布されるパッケージは [Fab Standard License (Fab EULA)](https://www.fab.com/ja/eula) に基づいて提供されます。  
+特に明記がない限り、本リポジトリ内のドキュメントの著作権は © 2022-2026 Naotsun に帰属し、無断転載は禁止です。
 
 ## 作者
 
