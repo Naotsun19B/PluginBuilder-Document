@@ -1,4 +1,4 @@
-![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.8-0e1128?logo=unrealengine&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/License-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
@@ -26,7 +26,7 @@
 
 ## 動作環境
 
-対象バージョン : UE4.27 ～ 5.7    
+対象バージョン : UE4.27 ～ 5.8    
 対象プラットフォーム : Windows  
 
 ## インストール
@@ -112,8 +112,15 @@ Fabで配布されるパッケージは [Fab Standard License (Fab EULA)](https:
 ## 開発協力
 
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
+[themorfeus](https://github.com/themorfeus)
 
 ## 履歴
+
+- (2026/06/18) v1.9  
+  UE5.8に対応しました  
+  プラグインのzipファイルにConfigフォルダーをコピーする機能を追加しました  
+  出力するZIPファイルの名前にエンジンのバージョンを追加する機能を追加しました  
+  ビルド中のエディター通知に表示される情報を増やしました  
 
 - (2025/11/13) v1.8  
   UE5.7に対応しました  

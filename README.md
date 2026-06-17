@@ -1,4 +1,4 @@
-![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.7-0e1128?logo=unrealengine&logoColor=white)
+![UE Version](https://img.shields.io/badge/Unreal%20Engine-4.27--5.8-0e1128?logo=unrealengine&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: Fab Standard License (Fab EULA)](https://img.shields.io/badge/License-Fab%20Standard%20License%20%28Fab%20EULA%29-blue)](https://www.fab.com/eula)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/Naotsun_UE?style=social)](https://twitter.com/Naotsun_UE)
@@ -26,7 +26,7 @@ Adds a tools menu to build plugin with multiple engine versions and compress the
 
 ## Requirement
 
-Target version : UE4.27 ～ 5.7    
+Target version : UE4.27 ～ 5.8    
 Target platform : Windows  
 
 ## Installation
@@ -112,8 +112,15 @@ Unless explicitly stated otherwise, all documentation content in this repository
 ## Development Cooperation
 
 [@RyanDowlingSoka](https://twitter.com/RyanDowlingSoka)
+[themorfeus](https://github.com/themorfeus)
 
 ## History
+
+- (2026/06/18) v1.9  
+  Added support for UE5.8  
+  Added copying of Config folder during zipping up of the plugin  
+  Added a feature to append the engine version to the output ZIP file  
+  Improved editor notifications during builds
 
 - (2025/11/13) v1.8  
   Added support for UE5.7  
